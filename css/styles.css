@@ -10,8 +10,8 @@
     font-family: "Stolzl";
     font-weight: 400;
     font-style: normal;
-    src: url(/fonts/Stolzl-Regular.woff2) format("woff2"),
-        url(/fonts/Stolzl-Regular.woff) format("woff");
+    src: url(../fonts/Stolzl-Regular.woff2) format("woff2"),
+        url(../fonts/Stolzl-Regular.woff) format("woff");
     font-display: swap;
 }
 
@@ -19,8 +19,8 @@
     font-family: "Stolzl";
     font-weight: 500;
     font-style: normal;
-    src: url(/fonts/Stolzl-Medium.woff2) format("woff2"),
-        url(/fonts/Stolzl-Medium.woff) format("woff");
+    src: url(../fonts/Stolzl-Medium.woff2) format("woff2"),
+        url(../fonts/Stolzl-Medium.woff) format("woff");
     font-display: swap;
 }
 
@@ -28,8 +28,8 @@
     font-family: "Gilroy";
     font-weight: 500;
     font-style: normal;
-    src: url(/fonts/Gilroy-Medium.woff2) format("woff2"),
-        url(/fonts/Gilroy-Medium.woff) format("woff");
+    src: url(../fonts/Gilroy-Medium.woff2) format("woff2"),
+        url(../fonts/Gilroy-Medium.woff) format("woff");
     font-display: swap;
 }
 
@@ -37,8 +37,8 @@
     font-family: "Stolzl";
     font-weight: 800;
     font-style: normal;
-    src: url(/fonts/Gilroy-Extrabold.woff2) format("woff2"),
-        url(/fonts/Gilroy-Extrabold.woff) format("woff");
+    src: url(/..fonts/Gilroy-Extrabold.woff2) format("woff2"),
+        url(../fonts/Gilroy-Extrabold.woff) format("woff");
     font-display: swap;
 }
 
@@ -121,7 +121,7 @@ button {
 /* Hero section  */
 
 .hero-container {
-    background-image: url(/img/hero-background-mobile.png);
+    background-image: url(../img/hero-background-mobile.png);
     background-repeat: no-repeat;
     background-position: center;
     max-width: 370px;
@@ -233,7 +233,7 @@ button {
 }
 
 .about-us-list-item::before {
-    content: url(/img/star.png);
+    content: url(../img/star.png);
     width: 12px;
     height: 12px;
     position: absolute;
