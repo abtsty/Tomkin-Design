@@ -37,7 +37,7 @@
     font-family: "Stolzl";
     font-weight: 800;
     font-style: normal;
-    src: url(/..fonts/Gilroy-Extrabold.woff2) format("woff2"),
+    src: url(../fonts/Gilroy-Extrabold.woff2) format("woff2"),
         url(../fonts/Gilroy-Extrabold.woff) format("woff");
     font-display: swap;
 }
@@ -74,7 +74,7 @@ ul {
 img {
     display: block;
     max-width: 100%;
-    height: auto;
+    /* height: auto; */
 }
 
 button {
@@ -297,4 +297,62 @@ button {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+/* Our services  */
+
+.our-services-header {
+    font-family: Gilroy;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    padding-top: 24px;
+}
+.header-pistachio {
+    font-weight: 800;
+}
+
+.our-services-disc {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.our-services-list-item {
+    position: relative;
+}
+.our-services-btn {
+    color: rgba(245, 242, 238, 1);
+    background-color: rgba(164, 169, 126, 1);
+    border-radius: 17px;
+    border: 2px;
+
+    text-transform: uppercase;
+    font-family: Stolzl;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    position: absolute;
+    right: 30px;
+    top: 197px;
+}
+.our-services-title {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22.5px;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 42px;
 }
