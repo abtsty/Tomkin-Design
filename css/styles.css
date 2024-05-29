@@ -121,7 +121,7 @@ button {
 /* Hero section  */
 
 .hero-container {
-    background-image: url(/img/hero_background_mobile.png);
+    background-image: url(/img/hero-background-mobile.png);
     background-repeat: no-repeat;
     background-position: center;
     max-width: 370px;
