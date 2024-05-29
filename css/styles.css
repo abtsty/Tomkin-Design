@@ -211,12 +211,13 @@ button {
 .about-us-lists {
     display: flex;
     gap: 68px;
-    padding-left: 20px;
+    /* padding-left: 20px; */
 }
 .about-us-list-one {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    padding-left: 20px;
 }
 
 .about-us-list-two {
@@ -386,7 +387,7 @@ button {
 
     padding-bottom: 30px;
 
-    width: 365px;
+    max-width: 365px;
     height: 192px;
 }
 .course-main-img {
@@ -434,7 +435,81 @@ button {
 .course-stripe-img {
     padding-top: 60px;
     padding-bottom: 60px;
-    max-width: 1440px;
-    overflow: hidden;
+    max-width: auto;
+
     margin: 0 auto;
+}
+
+/* Check list  */
+.checklist-header {
+    font-family: Gilroy;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.checklist-title {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.checklist-list {
+    display: flex;
+    overflow: hidden;
+    overflow-x: auto;
+    scrollbar-color: transparent;
+    gap: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.checklist-list::-webkit-scrollbar {
+    display: none;
+}
+
+.checklist-list-item {
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.checklist-btn {
+    position: absolute;
+    left: 28px;
+    top: 130px;
+
+    color: rgba(245, 242, 238, 1);
+    background-color: rgba(164, 169, 126, 1);
+    border-radius: 17px;
+    border: 2px;
+
+    font-family: Stolzl;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.checklist-disc {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    max-width: 195px;
+}
+
+.checklist-section {
+    padding-bottom: 60px;
 }
