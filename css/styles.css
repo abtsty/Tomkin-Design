@@ -513,3 +513,65 @@ button {
 .checklist-section {
     padding-bottom: 60px;
 }
+
+/* Question section  */
+.question-header {
+    font-family: Gilroy;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+.header-pistachio {
+    font-family: Gilroy;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+.question-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.question-list-item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 1px solid;
+    border-color: rgba(164, 169, 126, 1);
+    padding-bottom: 10px;
+}
+
+.question-title {
+    font-family: Stolzl;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    text-align: left;
+}
+.question-btn {
+    width: 16px;
+    height: 8px;
+    align-items: center;
+}
+.question-arrow-icon {
+    stroke: rgba(164, 169, 126, 1);
+    fill: transparent;
+}
+
+.question-section {
+    padding-bottom: 60px;
+}
+
+/* DROPDOWN  */
+.hidden {
+    display: none;
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
