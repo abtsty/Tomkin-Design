@@ -607,7 +607,7 @@ button {
     letter-spacing: 0.02em;
 
     width: 260px;
-    height: 28px;
+    max-height: 28px;
     border: none;
     border-bottom: 1px solid rgba(245, 242, 238, 1);
     background-color: transparent;
@@ -649,7 +649,7 @@ button {
     max-width: 370px;
     height: 439px;
 
-    padding-bottom: 18px;
+    /* padding-bottom: 80px; */
     margin-bottom: 90px;
 }
 
