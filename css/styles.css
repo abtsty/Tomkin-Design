@@ -575,3 +575,80 @@ button {
     font-size: 14px;
     font-weight: 400;
 }
+
+/* Order section  */
+
+.order-header {
+    font-family: Gilroy;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 27.9px;
+    letter-spacing: 0.02em;
+    text-align: center;
+
+    color: rgba(245, 242, 238, 1);
+
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+.order-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.order-form-input {
+    font-family: Stolzl;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+    width: 260px;
+    height: 28px;
+    border: none;
+    border-bottom: 1px solid rgba(245, 242, 238, 1);
+    background-color: transparent;
+    color: rgba(245, 242, 238, 1);
+}
+
+.order-form-input::placeholder {
+    font-family: Stolzl;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: rgba(245, 242, 238, 1);
+}
+
+.order-button {
+    padding-left: 97px;
+    padding-right: 97px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-radius: 17px;
+    border: 2px;
+
+    font-family: Stolzl;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    text-align: left;
+
+    color: rgba(245, 242, 238, 1);
+    background-color: rgba(164, 169, 126, 1);
+}
+
+.order-section {
+    background-image: url(../img/order-background-mobile.png);
+    background-repeat: no-repeat;
+
+    max-width: 370px;
+    height: auto;
+
+    padding-bottom: 18px;
+    margin-bottom: 90px;
+}
