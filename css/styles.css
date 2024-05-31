@@ -652,3 +652,7 @@ button {
     padding-bottom: 18px;
     margin-bottom: 90px;
 }
+
+.order-text-area {
+    resize: none;
+}
