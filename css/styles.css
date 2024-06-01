@@ -568,6 +568,13 @@ button {
 @media only screen and (min-width: 768px) {
     .our-services-header {
         padding-top: 104px;
+
+        font-family: Gilroy;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 43.67px;
+        letter-spacing: 0.02em;
+        text-align: left;
     }
 }
 
@@ -583,9 +590,36 @@ button {
     padding-bottom: 30px;
 }
 
+@media only screen and (min-width: 768px) {
+    .our-services-disc {
+        font-family: Stolzl;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28.8px;
+        letter-spacing: 0.02em;
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .our-services-img {
+        width: 400px;
+        height: 409px;
+    }
+}
+
 .our-services-list-item {
     position: relative;
 }
+
+@media only screen and (min-width: 768px) {
+    .our-services-list {
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+    }
+}
+
 .our-services-btn {
     color: rgba(245, 242, 238, 1);
     background-color: rgba(164, 169, 126, 1);
@@ -608,6 +642,14 @@ button {
     right: 30px;
     top: 197px;
 }
+
+@media only screen and (min-width: 768px) {
+    .our-services-btn {
+        right: 30px;
+        top: 340px;
+    }
+}
+
 .our-services-title {
     font-size: 15px;
     font-weight: 500;
@@ -615,6 +657,16 @@ button {
     text-align: left;
     padding-top: 15px;
     padding-bottom: 42px;
+}
+
+@media only screen and (min-width: 768px) {
+    .our-services-title {
+        font-family: Stolzl;
+
+        font-weight: 500;
+        line-height: 27px;
+        text-align: left;
+    }
 }
 
 /* Course section  */
@@ -630,6 +682,19 @@ button {
 
     padding-bottom: 30px;
 }
+
+@media only screen and (min-width: 768px) {
+    .course-header {
+        font-family: Gilroy;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 43.67px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        padding-top: 90px;
+    }
+}
+
 .header-pistachio {
     font-family: Gilroy;
     font-size: 25px;
@@ -649,8 +714,41 @@ button {
     max-width: 365px;
     height: 192px;
 }
+
+@media only screen and (min-width: 768px) {
+    .course-titile {
+        font-family: Stolzl;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        max-width: 603px;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .course-section-container {
+        padding-bottom: 104px;
+    }
+}
+
 .course-main-img {
     padding-bottom: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+    .course-main-img {
+        display: block;
+        padding: 0;
+        width: 620px;
+        height: 498px;
+        float: right;
+
+        margin-top: -237px;
+        padding-bottom: 100px;
+    }
 }
 .course-date-one {
     font-size: 15px;
@@ -668,12 +766,41 @@ button {
     text-transform: uppercase;
     padding-bottom: 30px;
 }
+
+@media only screen and (min-width: 768px) {
+    .course-date-one {
+        font-family: Stolzl;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 22.5px;
+        text-align: left;
+    }
+    .course-date-two {
+        font-family: Stolzl;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 22.5px;
+        text-align: left;
+    }
+}
 .course-title-two {
     font-size: 15px;
     font-weight: 400;
     line-height: 22px;
     text-align: left;
     padding-bottom: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+    .course-title-two {
+        font-family: Stolzl;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        max-width: 603px;
+    }
 }
 .curse-btn {
     font-family: Stolzl;
@@ -699,7 +826,24 @@ button {
     margin: 0 auto;
 }
 
+@media only screen and (min-width: 768px) {
+    .course-stripe-img {
+        display: none;
+    }
+}
+
+.course-stripe-img-desktop {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .course-stripe-img-desktop {
+        display: block;
+    }
+}
+
 /* Check list  */
+
 .checklist-header {
     font-family: Gilroy;
     font-size: 25px;
@@ -711,12 +855,34 @@ button {
     padding-bottom: 30px;
 }
 
+@media only screen and (min-width: 768px) {
+    .checklist-header {
+        font-family: Gilroy;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 43.67px;
+        letter-spacing: 0.02em;
+        text-align: left;
+    }
+}
+
 .checklist-title {
     font-size: 15px;
     font-weight: 400;
     line-height: 22px;
     text-align: left;
     padding-bottom: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+    .checklist-title {
+        font-family: Stolzl;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+    }
 }
 
 .checklist-list {
@@ -727,6 +893,21 @@ button {
     gap: 20px;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    .checklist-list {
+        padding-left: 80px;
+        padding-right: 80px;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .checklist-list img {
+        width: 290px;
+        height: 276px;
+    }
 }
 
 .checklist-list::-webkit-scrollbar {
@@ -760,6 +941,13 @@ button {
     padding-bottom: 11px;
 }
 
+@media only screen and (min-width: 768px) {
+    .checklist-btn {
+        left: 120px;
+        top: 200px;
+    }
+}
+
 .checklist-disc {
     font-size: 15px;
     font-weight: 400;
@@ -767,6 +955,19 @@ button {
     letter-spacing: -0.01em;
     text-align: left;
     max-width: 195px;
+}
+
+@media only screen and (min-width: 768px) {
+    .checklist-disc {
+        font-family: Stolzl;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        max-width: 225px;
+        padding-top: 10px;
+    }
 }
 
 .checklist-section {
@@ -783,6 +984,17 @@ button {
     text-align: left;
     text-transform: uppercase;
     padding-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+    .question-header {
+        font-family: Gilroy;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 43.67px;
+        letter-spacing: 0.02em;
+        text-align: left;
+    }
 }
 .header-pistachio {
     font-family: Gilroy;
@@ -825,6 +1037,18 @@ button {
     line-height: 22.5px;
     text-align: left;
 }
+
+@media only screen and (min-width: 768px) {
+    .question-title {
+        font-family: Stolzl;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+    }
+}
+
 .question-btn {
     width: 16px;
     height: 8px;
