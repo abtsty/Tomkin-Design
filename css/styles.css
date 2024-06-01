@@ -47,6 +47,8 @@ body {
 
     margin: 0;
     padding: 0;
+
+    background-color: rgba(245, 242, 238, 1);
 }
 
 /* Base and cancel */
@@ -62,6 +64,10 @@ a {
     margin: 0;
     padding: 0;
     color: rgba(43, 39, 40, 1);
+}
+
+a {
+    text-decoration: none;
 }
 
 ol,
@@ -94,6 +100,15 @@ button {
     margin: 0 auto;
 }
 
+@media only screen and (min-width: 768px) {
+    .container {
+        padding-left: 80px;
+        padding-right: 80px;
+
+        max-width: 1290px;
+    }
+}
+
 /* Header  */
 
 .header-container {
@@ -104,14 +119,48 @@ button {
     padding-bottom: 58px;
 }
 
+@media only screen and (min-width: 768px) {
+    .header-container {
+        padding-top: 58px;
+    }
+}
+
 .header-mobile-socials-list {
     display: flex;
     gap: 11px;
 }
 
+@media only screen and (min-width: 768px) {
+    .header-mobile-socials-list {
+        display: none;
+    }
+}
+
 .button-burger {
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    .button-burger {
+        display: none;
+    }
+}
+
+.header-list {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .header-list {
+        display: flex;
+        gap: 24px;
+        font-family: Stolzl;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.2px;
+        letter-spacing: 0.02em;
+    }
 }
 
 .mobile-burger {
@@ -128,6 +177,14 @@ button {
     height: 453px;
 }
 
+@media only screen and (min-width: 768px) {
+    .hero-container {
+        background-image: url(../img/hero-background-desk.png);
+        max-width: 1280px;
+        height: 666px;
+    }
+}
+
 .hero-header {
     text-transform: uppercase;
     font-family: Gilroy;
@@ -139,12 +196,37 @@ button {
     padding-left: 30px;
 }
 
+@media only screen and (min-width: 768px) {
+    .hero-header {
+        padding-left: 110px;
+        max-width: 470px;
+
+        font-family: Gilroy;
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 43.67px;
+        letter-spacing: 0.02em;
+        text-align: left;
+    }
+}
+
 .hero-header-lower {
     font-family: Gilroy;
     font-size: 25px;
     font-weight: 500;
     line-height: 30px;
     text-align: left;
+}
+
+@media only screen and (min-width: 768px) {
+    .hero-header-lower {
+        font-family: Gilroy;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 43.67px;
+        letter-spacing: 0.02em;
+        text-align: left;
+    }
 }
 
 .hero-title {
@@ -157,6 +239,12 @@ button {
     max-width: 280px;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+    .hero-title {
+        padding-left: 110px;
+    }
 }
 
 .hero-btn {
@@ -178,14 +266,36 @@ button {
     margin: 0 auto;
 }
 
+@media only screen and (min-width: 768px) {
+    .hero-btn {
+        margin: 0;
+        margin-left: 110px;
+    }
+}
+
 /* About us  */
 
 .about-us-container {
     padding-top: 58px;
     padding-bottom: 58px;
 }
+
+@media only screen and (min-width: 768px) {
+    .about-us-container {
+        padding-top: 104px;
+        padding-bottom: 104px;
+        display: flex;
+    }
+}
 .about-us-img {
     padding-bottom: 32px;
+}
+
+@media only screen and (min-width: 768px) {
+    .about-us-img {
+        width: 620px;
+        height: 530px;
+    }
 }
 
 .about-us-header {
@@ -196,6 +306,17 @@ button {
     line-height: 30px;
     text-align: left;
     padding-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .about-us-header {
+        font-family: Gilroy;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 43.67px;
+        letter-spacing: 0.02em;
+        text-align: left;
+    }
 }
 .header-pistachio {
     color: rgba(164, 169, 126, 1);
@@ -208,11 +329,28 @@ button {
     padding-bottom: 20px;
 }
 
+@media only screen and (min-width: 768px) {
+    .about-us-title {
+        font-family: Stolzl;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+    }
+}
+
 .about-us-lists {
     display: flex;
     gap: 68px;
-    /* padding-left: 20px; */
 }
+
+@media only screen and (min-width: 768px) {
+    .about-us-lists {
+        display: none;
+    }
+}
+
 .about-us-list-one {
     display: flex;
     flex-direction: column;
@@ -240,7 +378,58 @@ button {
     position: absolute;
     left: -20px;
 }
+@media only screen and (min-width: 768px) {
+    .about-us-title-container {
+        display: flex;
+        flex-direction: column;
+        padding-left: 40px;
+        max-width: 606px;
+        max-height: 111px;
+    }
+}
 
+.about-us-desktop-list {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .about-us-desktop-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+        column-gap: 108px;
+        row-gap: 34px;
+
+        padding-bottom: 15px;
+        padding-left: 30px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .about-us-desktop-list-item {
+        width: 144px;
+        position: relative;
+    }
+
+    .about-us-desktop-list-item::before {
+        content: url(../img/star.png);
+        width: 12px;
+        height: 12px;
+        position: absolute;
+        left: -20px;
+    }
+}
+
+.about-us-title-desk {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .about-us-title-desk {
+        display: block;
+    }
+}
 /* Our works  */
 
 .our-works-header {
@@ -252,12 +441,35 @@ button {
     text-transform: uppercase;
     padding-bottom: 36px;
 }
+
+@media only screen and (min-width: 768px) {
+    .our-works-header {
+        font-family: Gilroy;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 43.67px;
+        letter-spacing: 0.02em;
+        text-align: left;
+    }
+}
+
 .our-works-buildings-header {
     font-size: 15px;
     font-weight: 500;
     line-height: 22.5px;
     text-align: left;
     padding-top: 12px;
+}
+
+@media only screen and (min-width: 768px) {
+    .our-works-buildings-header {
+        font-family: Stolzl;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0.02em;
+        text-align: left;
+    }
 }
 .our-works-title {
     font-size: 15px;
@@ -266,9 +478,42 @@ button {
     text-align: left;
     padding-top: 12px;
 }
+
+@media only screen and (min-width: 768px) {
+    .our-works-title {
+        font-family: Stolzl;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .our-works-img {
+        width: 620px;
+        height: 432px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .our-works-list {
+        display: flex;
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+}
+
 .our-work-list-item {
     padding-bottom: 36px;
     position: relative;
+}
+
+@media only screen and (min-width: 768px) {
+    .our-work-list-item {
+        padding: 0;
+    }
 }
 
 .our-works-button {
@@ -294,6 +539,13 @@ button {
     top: 197px;
 }
 
+@media only screen and (min-width: 768px) {
+    .our-works-button {
+        right: 30px;
+        top: 360px;
+    }
+}
+
 .our-works-text-container {
     display: flex;
     justify-content: space-between;
@@ -312,6 +564,13 @@ button {
     padding-bottom: 40px;
     padding-top: 24px;
 }
+
+@media only screen and (min-width: 768px) {
+    .our-services-header {
+        padding-top: 104px;
+    }
+}
+
 .header-pistachio {
     font-weight: 800;
 }
@@ -533,6 +792,18 @@ button {
     letter-spacing: -0.01em;
     text-align: left;
 }
+
+@media only screen and (min-width: 768px) {
+    .header-pistachio {
+        font-family: Gilroy;
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 44.1px;
+        letter-spacing: 0.02em;
+        text-align: left;
+    }
+}
+
 .question-list {
     display: flex;
     flex-direction: column;

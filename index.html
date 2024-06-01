@@ -50,6 +50,14 @@
                     <use href="./img/svgs.svg#icon-burger_menu"></use>
                 </svg>
             </button>
+            <ul class="header-list">
+                <li><a href="#">Про нас</a></li>
+                <li><a href="#">Проєкти</a></li>
+                <li><a href="#">Послуги</a></li>
+                <li><a href="#">Курс</a></li>
+                <li><a href="#">Чек-листи</a></li>
+                <li><a href="#">Контакти</a></li>
+            </ul>
         </header>
         <main>
             <!-- HERO SECTION  -->
@@ -79,22 +87,42 @@
                     height="317"
                     class="about-us-img"
                 />
-                <h2 class="about-us-header">
-                    про <span class="header-pistachio">нас</span>
-                </h2>
-                <p class="about-us-title">
-                    Ми Тома і Діма - власники студії, ми познайомились в 2008
-                    році в університеті, де навчались на архітекторів і з того
-                    часу ми разом.
-                </p>
-                <p class="about-us-title">
-                    Ми починали з нуля, із простої мрії створювати красу та
-                    зробити ремонт для людей приємним та безтурботним процесом.
-                    І все, що робили - було і буде з любові.
-                </p>
-                <p class="about-us-title">
-                    Наша історія вибудувалась на дуже міцних будматеріалах:
-                </p>
+                <div class="about-us-title-container">
+                    <h2 class="about-us-header">
+                        про <span class="header-pistachio">нас</span>
+                    </h2>
+
+                    <p class="about-us-title">
+                        Ми Тома і Діма - власники студії, ми познайомились в
+                        2008 році в університеті, де навчались на архітекторів і
+                        з того часу ми разом.
+                    </p>
+                    <p class="about-us-title">
+                        Ми починали з нуля, із простої мрії створювати красу та
+                        зробити ремонт для людей приємним та безтурботним
+                        процесом. І все, що робили - було і буде з любові.
+                    </p>
+                    <p class="about-us-title">
+                        Наша історія вибудувалась на дуже міцних будматеріалах:
+                    </p>
+                    <ul class="about-us-desktop-list">
+                        <li class="about-us-desktop-list-item">праця</li>
+                        <li class="about-us-desktop-list-item">турбота</li>
+                        <li class="about-us-desktop-list-item">людяність</li>
+                        <li class="about-us-desktop-list-item">
+                            відповідальність
+                        </li>
+                        <li class="about-us-desktop-list-item">любов</li>
+                        <li class="about-us-desktop-list-item">чесність</li>
+                    </ul>
+                    <p class="about-us-title about-us-title-desk">
+                        Ми працюємо не з трендами а з людьми, для нас ремонт та
+                        організація оселі це філософія, це найважливіше, ми
+                        даруємо нашим клієнтам не просто гарний ремонт, а місце
+                        де ви будете в гармонії з собою, місце сили та
+                        натхнення, душа та ергономіка, ось що важливо!
+                    </p>
+                </div>
                 <div class="about-us-lists">
                     <ul class="about-us-list-one">
                         <li class="about-us-list-item">праця</li>
@@ -114,16 +142,23 @@
                     реалізовані нами
                     <span class="header-pistachio">проєкти</span>
                 </h2>
-                <ul>
+                <ul class="our-works-list">
                     <li class="our-work-list-item">
                         <img
+                            class="our-works-img"
                             src="./img/example-1.png"
                             alt="дизайнерський ремонт у житловому комплексі"
                             width="370"
                             height="259"
-                        /><button type="button" class="our-works-button">
+                        />
+                        <a
+                            href="https://www.instagram.com/"
+                            class="our-works-button"
+                            >переглянути</a
+                        >
+                        <!-- <button type="button" class="our-works-button">
                             переглянути
-                        </button>
+                        </button> -->
                         <div class="our-works-text-container">
                             <h3 class="our-works-buildings-header">ЖК Great</h3>
                             <p class="our-works-title">
@@ -133,6 +168,7 @@
                     </li>
                     <li class="our-work-list-item">
                         <img
+                            class="our-works-img"
                             src="./img/example-2.png"
                             alt="дизайнерський ремонт у житловому комплексі"
                             width="370"
@@ -151,6 +187,7 @@
                     </li>
                     <li class="our-work-list-item">
                         <img
+                            class="our-works-img"
                             src="./img/example-3.png"
                             alt="дизайнерський ремонт у житловому комплексі"
                             width="370"
@@ -169,6 +206,7 @@
                     </li>
                     <li class="our-work-list-item">
                         <img
+                            class="our-works-img"
                             src="./img/example-4.png"
                             alt="дизайнерський ремонт у житловому комплексі"
                             width="370"
