@@ -51,12 +51,12 @@
                 </svg>
             </button>
             <ul class="header-list">
-                <li><a href="#">Про нас</a></li>
-                <li><a href="#">Проєкти</a></li>
-                <li><a href="#">Послуги</a></li>
-                <li><a href="#">Курс</a></li>
-                <li><a href="#">Чек-листи</a></li>
-                <li><a href="#">Контакти</a></li>
+                <li><a href="#about">Про нас</a></li>
+                <li><a href="#projects">Проєкти</a></li>
+                <li><a href="#services">Послуги</a></li>
+                <li><a href="#course">Курс</a></li>
+                <li><a href="#check-list">Чек-листи</a></li>
+                <li><a href="#contacts">Контакти</a></li>
             </ul>
         </header>
         <main>
@@ -115,7 +115,7 @@
                 </div>
             </section>
             <!-- ABOUT US  -->
-            <section class="container about-us-container">
+            <section id="about" class="container about-us-container">
                 <img
                     src="./img/about-us-img.jpg"
                     alt="Тома і Діма"
@@ -173,7 +173,7 @@
                 </div>
             </section>
             <!-- OUR WORKS  -->
-            <section class="container">
+            <section id="projects" class="container">
                 <h2 class="our-works-header">
                     реалізовані нами
                     <span class="header-pistachio">проєкти</span>
@@ -263,7 +263,7 @@
                 </ul>
             </section>
             <!-- OUR SERVICES -->
-            <section class="container">
+            <section id="services" class="container">
                 <h2 class="our-services-header">
                     наші <span class="header-pistachio">послуги</span>
                 </h2>
@@ -311,7 +311,7 @@
                 </ul>
             </section>
             <!-- Course section  -->
-            <section class="course-section-container">
+            <section id="course" class="course-section-container">
                 <div class="container">
                     <h2 class="course-header">
                         <span class="header-pistachio">курс</span> “дизайнер
@@ -364,7 +364,7 @@
                 />
             </section>
             <!-- CHECK LIST  -->
-            <section class="checklist-section">
+            <section id="check-list" class="checklist-section">
                 <div class="container">
                     <h2 class="checklist-header">
                         <span class="header-pistachio"
@@ -768,7 +768,8 @@
                 </section>
             </div>
         </main>
-        <footer class="footer-wrapper">
+        <!-- FOOTER  -->
+        <footer id="contacts" class="footer-wrapper">
             <div class="container footer-container">
                 <a href="./index.html"
                     ><svg class="footer-brand-icon" width="225" height="37">
@@ -793,17 +794,20 @@
                 <ul class="footer-socials-list">
                     <li>
                         <a
-                            class="footer-contacts"
+                            target="_blank"
+                            rel="noopener noreferrer nofollow"
                             href="https://www.instagram.com/"
-                        ></a
-                        ><svg class="footer-icon" width="37" height="38">
-                            <use
-                                href="./img/svgs.svg#icon-instagram_footer"
-                            ></use>
-                        </svg>
+                            ><svg class="footer-icon" width="37" height="38">
+                                <use
+                                    href="./img/svgs.svg#icon-instagram_footer"
+                                ></use></svg
+                        ></a>
                     </li>
                     <li>
-                        <a href="https://www.facebook.com/"
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer nofollow"
+                            href="https://www.facebook.com/"
                             ><svg class="footer-icon" width="37" height="38">
                                 <use
                                     href="./img/svgs.svg#icon-facebook_hero_footer"
@@ -811,7 +815,10 @@
                         ></a>
                     </li>
                     <li>
-                        <a href="https://web.telegram.org/a/"
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer nofollow"
+                            href="https://web.telegram.org/a/"
                             ><svg class="footer-icon" width="37" height="38">
                                 <use
                                     href="./img/svgs.svg#icon-telegram_footer"
@@ -819,7 +826,10 @@
                         ></a>
                     </li>
                     <li>
-                        <a href="https://www.youtube.com/"
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer nofollow"
+                            href="https://www.youtube.com/"
                             ><svg class="footer-icon" width="37" height="26">
                                 <use
                                     href="./img/svgs.svg#icon-youtube_footer"
