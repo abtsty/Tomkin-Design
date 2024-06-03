@@ -611,6 +611,71 @@
                         напишіть нам
                     </h2>
                     <form class="order-form">
+                        <div class="form-row">
+                            <label for="name" class="form-item"></label>
+                            <input
+                                placeholder="ім'я"
+                                class="order-form-input form-item"
+                                type="text"
+                                id="name"
+                                name="name"
+                                required
+                            />
+                        </div>
+                        <div class="form-row">
+                            <label for="phone" class="form-item"></label>
+                            <input
+                                placeholder="номер телефону"
+                                class="order-form-input form-item"
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                required
+                            />
+                        </div>
+                        <div class="form-row">
+                            <label for="area" class="form-item"></label>
+                            <input
+                                placeholder="площа м²"
+                                class="order-form-input form-item"
+                                type="number"
+                                id="area"
+                                name="area"
+                                required
+                            />
+                        </div>
+                        <div class="form-row">
+                            <label for="housing-type" class="form-item"></label>
+                            <input
+                                placeholder="тип житла (квартира, дім)"
+                                class="order-form-input form-item"
+                                type="text"
+                                id="housing-type"
+                                name="housing-type"
+                                required
+                            />
+                        </div>
+                        <div class="form-row">
+                            <label for="wishes" class="form-item"></label>
+                            <textarea
+                                class="order-form-input order-text-area form-item"
+                                placeholder="побажання"
+                                id="wishes"
+                                name="wishes"
+                                rows="1"
+                            ></textarea>
+                        </div>
+                        <div class="form-row">
+                            <button
+                                type="submit"
+                                class="order-button form-item"
+                            >
+                                відправити
+                            </button>
+                        </div>
+                    </form>
+
+                    <!-- <form class="order-form">
                         <label for="name"></label>
                         <input
                             placeholder="ім'я"
@@ -663,7 +728,7 @@
                         <button type="submit" class="order-button">
                             відправити
                         </button>
-                    </form>
+                    </form> -->
                 </section>
             </div>
         </main>

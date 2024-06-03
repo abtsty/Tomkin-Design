@@ -839,6 +839,7 @@ button {
 @media only screen and (min-width: 768px) {
     .course-stripe-img-desktop {
         display: block;
+        margin: 0 auto;
     }
 }
 
@@ -899,7 +900,8 @@ button {
     .checklist-list {
         padding-left: 80px;
         padding-right: 80px;
-        justify-content: space-between;
+        justify-content: center;
+        gap: 40px;
     }
 }
 
@@ -1094,6 +1096,17 @@ button {
     align-items: center;
 }
 
+@media only screen and (min-width: 768px) {
+    .order-form {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 180px;
+        row-gap: 50px;
+        padding-top: 38px;
+    }
+}
+
 .order-form-input {
     font-family: Stolzl;
     font-size: 16px;
@@ -1146,6 +1159,14 @@ button {
 
     /* padding-bottom: 80px; */
     margin-bottom: 90px;
+}
+
+@media only screen and (min-width: 768px) {
+    .order-section {
+        background-image: url(../img/order-background-desctop.png);
+        max-width: 1290px;
+        height: 338px;
+    }
 }
 
 .order-text-area {
