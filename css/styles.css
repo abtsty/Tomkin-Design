@@ -182,6 +182,7 @@ button {
         background-image: url(../img/hero-background-desk.png);
         max-width: 1280px;
         height: 666px;
+        position: relative;
     }
 }
 
@@ -194,6 +195,22 @@ button {
     text-align: left;
     padding-top: 56px;
     padding-left: 30px;
+}
+
+.hero-socials-list {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .hero-socials-list {
+        display: block;
+        position: absolute;
+        top: 125px;
+        left: 20px;
+    }
+    .hero-desktop-list-item {
+        padding-top: 65px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -500,7 +517,7 @@ button {
 @media only screen and (min-width: 768px) {
     .our-works-list {
         display: flex;
-        gap: 40px;
+        gap: 30px;
         flex-wrap: wrap;
     }
 }
@@ -1171,4 +1188,55 @@ button {
 
 .order-text-area {
     resize: none;
+}
+
+/* FOOTER  */
+
+.footer-wrapper {
+    display: none;
+    background-color: rgba(43, 39, 40, 1);
+}
+
+@media only screen and (min-width: 768px) {
+    .footer-wrapper {
+        display: block;
+    }
+}
+
+.footer-contacts {
+    color: rgba(245, 242, 238, 1);
+}
+
+.footer-brand-icon {
+    fill: rgba(255, 255, 255, 1);
+}
+
+.footer-contacts-list {
+    color: rgba(245, 242, 238, 1);
+}
+
+.footer-icon {
+    fill: rgba(255, 255, 255, 1);
+}
+.footer-socials-list {
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 268px;
+    padding-top: 86px;
+    padding-bottom: 86px;
+}
+
+.footer-adress-list {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
 }
